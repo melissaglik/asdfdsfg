@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+
+int main(){
+	
+//	int sayi1=6;
+//	float sayi2=2.5;
+//	double sayi3=5.84554;
+//	char harf1='A';
+//	
+//	printf("Integar degerinde sayi1'in karsiligi=%d\n Float değerinde sayi2'nin değeri=%f\n Double degerinde sayi3'ün degeri=%lf\n Char degerinde harf1'in degeri=%c",sayi1,sayi2,sayi3,harf1);
+//
+//
+//	float a=8.8;
+//	float b=7.7;
+//	float c=3.3;
+//	printf("\niki sayinin toplaminin 3.3e bolumu sudur=%lf",(a+b)/c);
+//	
+//		int integarDegiskeni; 
+//		printf("\nIntegar degiskeninin bellekte kapladigi yer=%ld",sizeof(integarDegiskeni));
+//
+//	int alinacakSayi;
+//	int alinacakIkinciSayi;
+//	int islem;
+//	printf("\nBir sayi giriniz.");
+//	scanf("%d",&alinacakSayi);
+//	printf("Ikinci sayiyi giriniz.");
+//	scanf("%d",&alinacakIkinciSayi);
+//	islem=alinacakSayi*alinacakIkinciSayi;
+//	printf("Girdiginiz iki sayinin carpimi=%d",islem);
+//		return 0;
+
+//int kareninCevresi;
+//printf("karenin cevresinin degerini giriniz:");
+//scanf("%d",&kareninCevresi);
+//int birKenarUzunlugu;
+//int alan;
+//birKenarUzunlugu=kareninCevresi/4;
+//alan=birKenarUzunlugu*birKenarUzunlugu;
+//printf("cevresi girilen deger olan karenin bir kenar uzunlugu sudur=%d\nalani sudur=%d",birKenarUzunlugu,alan);
+
+//üç sayının ortalaması
+//
+//int birinciSayi,ikinciSayi,ucuncuSayi;
+//printf("3 sayi degeri giriniz.");
+//scanf("%d %d %d",&birinciSayi,&ikinciSayi,&ucuncuSayi);
+//int ortalama=(birinciSayi+ikinciSayi+ucuncuSayi)/3;
+//printf("Girdiginiz 3 sayi sudur=%d,%d,%d\nGirdiginiz 3 sayi degerinin ortalamasi sudur=%d",birinciSayi,ikinciSayi,ucuncuSayi,ortalama);
+
+//denklem
+//2x^2+2y+3
+
+int sayiX;
+int sayiY;
+int denklem;
+printf("x degeri giriniz");
+scanf("%d",&sayiX);
+printf("y degeri giriniz");
+scanf("%d",&sayiY);
+denklem=2*(sayiX*sayiX)+2*(sayiY)+3;
+printf("sonuc sudur=%d",denklem);
+
